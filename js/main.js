@@ -116,7 +116,7 @@ $(function() {
                 items:7
             }
         },
-        navText: ["<img src='../images/arr-right.png'>","<img src='../images/arr-left.png'>"]
+        navText: ["<img src='images/arr-right.png'>","<img src='images/arr-left.png'>"]
     });
 
 })
