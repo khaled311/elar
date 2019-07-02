@@ -1,0 +1,36 @@
+﻿body{
+    font-family: 'frt', sans-serif;
+    direction: $dir;
+    text-align: $start-dir;
+}
+
+*{
+    font-family: inherit;
+}
+
+input, a, button{
+    font-family: 'frt', sans-serif;
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+button{
+    cursor: pointer;
+
+    &:focus, &:active{
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
